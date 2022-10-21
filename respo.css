@@ -1,0 +1,14 @@
+@media only screen and (max-width: 800px) {
+    .nav_option{
+        display: none;
+    }
+    #hamburg{
+        display: block;
+    }
+    #navbar{
+        display: block;
+    }
+    #ham_option{
+        display: block;
+    }
+  }

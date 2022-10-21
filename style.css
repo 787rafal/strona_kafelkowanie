@@ -1,0 +1,111 @@
+*{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    border-collapse: collapse;
+    font-family:calibri;
+    font-size: 18px;
+    color:#2b2a2a;
+}
+
+@font-face {
+    font-family: Twcent;
+    src: url(fonty/TwCenClassMTStd-Regular.otf);
+}
+
+body{
+    margin: 0;
+    background-color: #2b2a2a;
+    background-image: url('image.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.logo_link {
+    margin:0 auto;
+    width: 100%;
+    max-width: 811px;
+    display: flex;
+}
+
+#logo{
+    border-right:#000000 1px solid;
+    width: 100%;
+}
+
+
+#wrapper{
+    min-height: 100px;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    margin-top: 0px;
+    
+    padding-top: 0px;
+    background-color: #C4C4C4;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#main{
+    padding: 20px;
+    padding-top: 0px;
+}
+
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+  }
+  
+
+#navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    width: 80%;
+    display: block;
+    margin:0 auto;
+  }
+
+.nav_option span {
+    color: #f2f2f2;  
+    font-family: TWcent;
+    font-size: 14px;
+}
+.nav_option{
+    flex:1;
+    width:20%;
+    text-align: center;
+    margin: 10px 0;
+    border-left:#C4C4C4 1px solid;
+}
+.nav_option:first-child{
+    border: 0;
+}
+
+#hamburg{
+    display: none;
+}
+#ham_option{
+    display: none;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
