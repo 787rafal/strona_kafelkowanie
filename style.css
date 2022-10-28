@@ -92,9 +92,6 @@ body{
     border: 0;
 }
 
-.sticky + #main {
-    padding-top: 60px;
-  }
 
 #hamburg{
     display: none;
@@ -141,8 +138,37 @@ body{
   }
 .demo-icon:hover {
     font-size: 30px;
-
   }
+#ham_option td a{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.stopka{
+  color:white;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.respo_2{
+  flex:1;
+  padding: 10px;
+  margin:auto;
+}
+.respo_1{
+  display: flex;
+}
+.respo_2 img {
+  width: 100%;
+  border-radius: 3px;
+  border:1px solid #333
+}
+.respo_2 p {
+  margin: 0;
+}
+.center{
+  text-align: center;
+}
 
 
 
