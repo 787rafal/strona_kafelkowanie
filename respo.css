@@ -4,11 +4,12 @@
     }
     #hamburg{
         display: block;
+        text-align: center;
     }
     #navbar{
         display: block;
     }
     #ham_option{
-        display: block;
+        text-align: center;
     }
   }

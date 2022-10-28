@@ -1,7 +1,4 @@
 //sticky navbar
-//window.onscroll = function() {sticky_nav()};
-
-
 function sticky_nav() {
 
     const navbar = document.querySelector("#navbar");
