@@ -15,4 +15,10 @@
     .respo_1{
         display: block;
     }
+    .js_ham{
+        display: block !important;
+    }
+    .rea_img:hover{
+        position:inherit;
+    }
   }

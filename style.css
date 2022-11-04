@@ -96,6 +96,10 @@ body{
 #hamburg{
     display: none;
 }
+.js_ham{
+  display: none;
+}
+
 #ham_option{
     display: none;
 }
@@ -168,6 +172,27 @@ body{
 }
 .center{
   text-align: center;
+}
+
+.cennik {
+  margin:0 auto;
+}
+.cennik td {
+  border:1px solid black;
+}
+
+.rea_img{
+  transition: 0.5s;
+  width: 98% !important;
+  margin:0 auto;
+}
+
+.rea_img:hover{
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+  border:0;
+  border-radius: 0;
+  width: 100% !important;
+  position:relative;
 }
 
 
