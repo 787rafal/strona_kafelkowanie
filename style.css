@@ -195,6 +195,28 @@ body{
   position:relative;
 }
 
+.prod{
+  padding: 20px;
+  margin: 20px;
+  background-color: #e2e2e2;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.marg{
+ margin: 0;
+}
+
+.button_prod{
+  margin-right: 30px;
+}
+
+.cena_prod{
+  margin-top:10px !important;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+}
+
 
 
 
