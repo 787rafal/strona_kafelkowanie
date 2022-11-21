@@ -21,4 +21,14 @@
     .rea_img:hover{
         position:inherit;
     }
+    #form_kon textarea{
+        width: auto;
+        height: 150px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+      }
+    #form_kon #zalacznik{
+        width: 240px;
+    }
+      
   }

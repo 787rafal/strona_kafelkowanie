@@ -14,5 +14,5 @@ function menu(){
         men.classList.remove('js_ham');
         bool = false;
     }
-    console.log(men);
+    //console.log(men);
 }

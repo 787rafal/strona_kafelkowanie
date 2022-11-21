@@ -44,8 +44,95 @@
         </div>
 
         <div id="main">
-        <p>KONTAKT</p>
-    </div>
+            
+            <div class="respo_1">
+
+                <div class="respo_2 prod" style="flex:3 !important;">
+                    <h1 class="center"> Formularz Kontaktowy </h1>
+                    <div style="">
+                        
+                        <table id="form_kon" style="margin:0 auto;">
+                            <form action=""  method="get">
+                            <tr>
+                                <td><p>Temat: </p></td>
+                                <td>
+                                    <input type="radio" checked name="temat" id="Wycena" value="wycena">
+                                    <label for="Wycena">Wycena</label><br>
+                                    <input type="radio" name="temat" id="Termin" value="termin">
+                                    <label for="Termin">Wolny termin</label><br>
+                                    <input type="radio" name="temat" id="Inny" value="inny">
+                                    <label for="Inny">Inny</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><p>Dane personalne: </p></td>
+                                <td>
+                                    <input type="text" name="imie" id="imie" required placeholder="Imię"><br>
+                                    <input type="text" name="nazwisko" id="nazwisko" required placeholder="Nazwisko">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><p>Dane Kontaktowe: </p></td>
+                                <td>
+                                    <input type="tel" name="telefon" id="telefon" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="Nr Tel (123-456-789)"><br>
+                                    <input type="email" name="mail" id="mail" required placeholder="E-mail">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><p>Treść Wiadomości: </p></td>
+                                <td>
+                                    <textarea name="wiadomosc" required id="wiadomosc" placeholder="Napisz wiadomość"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><p>Dodatkowe pliki: </p></td>
+                                <td>
+                                    <input type="file" name="zalacznik" id="zalacznik">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit" value="Wyślij Wiadomość">
+                                </td>
+                                <td>
+                                    <input type="reset" value="Wyczyść">
+                                </td>
+                            </tr>
+                        </form>
+                        </table>
+                    
+                    </div>
+                </div>
+
+                <div class="respo_2">
+                    
+                    <div style="display:flex;">
+                        <table id="ikony">
+                            <tr>
+                                <td><a href="mailto:kafelkownie@firma.pl"><i class="kontakt-icon">&#xe800;</i></a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="tel:+123456789"><i class="kontakt-icon">&#xe801;</i></a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.google.com/search?client=firefox-b-d&q=kafelkowanie%20firma%20opole&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&tbm=lcl&sxsrf=ALiCzsZrY-7plJIdDgTDIjGh-AztKMZKaw:1669066523618&rflfq=1&num=10&rldimm=17441725756119358314&lqi=ChhrYWZlbGtvd2FuaWUgZmlybWEgb3BvbGVaGiIYa2FmZWxrb3dhbmllIGZpcm1hIG9wb2xlegVPcG9sZZIBEmdlbmVyYWxfY29udHJhY3RvcqoBGhABKhYiEmthZmVsa293YW5pZSBmaXJtYSgL&ved=2ahUKEwjlrfypncD7AhWjtIsKHaYwBagQvS56BAg4EAE&sa=X&rlst=f#rlfi=hd:;si:17441725756119358314,l,ChhrYWZlbGtvd2FuaWUgZmlybWEgb3BvbGVaGiIYa2FmZWxrb3dhbmllIGZpcm1hIG9wb2xlegVPcG9sZZIBEmdlbmVyYWxfY29udHJhY3RvcqoBGhABKhYiEmthZmVsa293YW5pZSBmaXJtYSgL;mv:[[50.775258199999996,18.2412226],[50.608728400000004,17.8669147]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2" target="_blank"><i class="kontakt-icon">&#xf1a0;</i></a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.facebook.com/PlytkowanieOpole" target="_blank"><i class="kontakt-icon">&#xf308;</i></a></td>
+                            </tr>
+                        </table>
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </div>
 
     </div>
     <p class="stopka">Rafał Bartoń 2022 &copy;</p>

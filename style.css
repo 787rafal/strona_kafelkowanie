@@ -216,6 +216,70 @@ body{
   font-weight: bold;
 }
 
+#form_kon textarea{
+  resize:none;
+  width: 400px;
+  height: 150px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#form_kon td{
+  padding: 5px 10px;
+}
+#form_kon input{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+#form_kon tr td:first-child{
+  vertical-align: top;
+}
+
+#form_kon tr{
+  border-bottom: 1px dotted #2b2a2a;
+  padding-top:10px;
+}
+#form_kon td p{
+  padding-top: 8px;
+}
+#form_kon tr:last-child{
+  border-bottom: 0;
+  padding-top:10px;
+}
+
+.kontakt-icon{
+  font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    padding: 10px;
+    vertical-align: middle;
+    transition: 0.2s;
+    width:76px;
+    height: 76px;
+    display: inline-block;
+    
+}
+#ikony{
+  margin:0 auto;
+  height: 100%;
+}
+#ikony td{
+  padding: 20px;
+  text-align: center;
+}
+
+#ikony a{
+  text-decoration: none;
+}
+
+#ikony i:hover{
+  color:white;
+  border-radius: 200px;
+  background-color: #2b2a2a;
+}
+
+
 
 
 
