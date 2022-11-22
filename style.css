@@ -254,11 +254,7 @@ body{
     font-size: 50px;
     padding: 10px;
     vertical-align: middle;
-    transition: 0.2s;
-    width:76px;
-    height: 76px;
-    display: inline-block;
-    
+    transition: 0.2s;    
 }
 #ikony{
   margin:0 auto;
@@ -277,6 +273,78 @@ body{
   color:white;
   border-radius: 200px;
   background-color: #2b2a2a;
+}
+
+.form_log textarea{
+  resize:none;
+  width: 400px;
+  height: 150px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.form_log td{
+  padding: 5px 10px;
+}
+.form_log input{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.form_log tr td:first-child{
+  vertical-align: top;
+}
+
+.form_log tr{
+  border-bottom: 1px dotted #2b2a2a;
+  padding-top:10px;
+}
+.form_log td p{
+  padding-top: 8px;
+}
+.form_log tr:last-child{
+  border-bottom: 0;
+  padding-top:10px;
+}
+
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 12px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
 }
 
 
