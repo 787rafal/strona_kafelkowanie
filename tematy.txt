@@ -1,5 +1,2 @@
-Strona g³ówna
-Nasze realizacje
-Produkty
-Kontakt - Formularz kontaktowy
-Logowanie
+jquery - ALERT , bcktop
+js - menu, navbar

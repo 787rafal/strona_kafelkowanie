@@ -347,6 +347,13 @@ body{
   top: 5px;
 }
 
+.alert-iko{
+  color:rgb(192, 0, 0);
+  font-size: 80px;
+  width: 24px !important;
+    height: 24px !important;
+}
+
 
 
 
