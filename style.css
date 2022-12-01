@@ -230,6 +230,7 @@ body{
 #form_kon input{
   margin-bottom: 5px;
   margin-top: 5px;
+  max-width: 215.5px;
 }
 #form_kon tr td:first-child{
   vertical-align: top;
