@@ -1,2 +1,0 @@
-jquery - ALERT , bcktop , log , loader
-js - menu, navbar , error
