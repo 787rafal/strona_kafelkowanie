@@ -1,10 +1,12 @@
-<script type="text/javascript">
-    location.href="produkty.php";
-</script>
+<?php
+session_start();
 
-
-<!--<meta http-equiv="Refresh" content="0;url=produkty.php">-->
-
+if((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany'] == true))
+{
+    header('Location: zalog.php');
+    exit();
+}
+?>
 
 
 <!DOCTYPE html>

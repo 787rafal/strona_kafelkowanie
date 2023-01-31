@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+if((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany'] == true))
+{
+    header('Location: zalog.php');
+    exit();
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="PL">
 <head>
@@ -79,12 +90,17 @@
                             $haslo = md5($_POST["haslo"]);
 
                             $baza = new mysqli("localhost","root","","strona_studia");
-                            $baza->set_charset("utf-8");
+                            $baza->set_charset("utf8");
                             $zap = "SELECT * FROM konta WHERE login = '$login' AND haslo = '$haslo'";
-                            var_dump($zap);
                             $wynik = $baza->query($zap);
                             if( $wynik->num_rows == 1){
-                                echo "zalogowano";
+                                $pom = $wynik->fetch_assoc();
+                                $_SESSION['login'] = $pom['login'];
+                                $_SESSION['zalogowany'] = true;
+                                echo $_SESSION['login'];
+                                header('Location: zalog.php');
+
+                                //
                             }
                             else
                             {
@@ -147,7 +163,7 @@
                             $mail = $_POST["email_r"];
 
                             $baza = new mysqli("localhost","root","","strona_studia");
-                            $baza->set_charset("utf-8");
+                            $baza->set_charset("utf8");
                             $zap = "SELECT * FROM konta WHERE login = '$login'";
                             $wynik = $baza->query($zap);
                             if( $wynik->num_rows != 0)

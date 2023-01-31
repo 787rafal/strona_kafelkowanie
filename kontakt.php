@@ -1,3 +1,16 @@
+<?php
+session_start();
+
+if((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany'] == true))
+{
+    header('Location: zalog.php');
+    exit();
+}
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="PL">
 <head>
@@ -149,6 +162,12 @@
                     move_uploaded_file($_FILES["zalacznik"]["tmp_name"],$lokalizacja);
                     //echo $_FILES['zalacznik'];
                     //var_dump($_FILES);
+                    $baza = new mysqli("localhost","root","","strona_studia");
+                    $baza->set_charset("utf8");
+                    //$lokalizacja = 'localhost/strona_kafelkowanie/wgranePliki/'.$_FILES["zalacznik"]["name"];
+                    $zap = 'INSERT INTO zapytanie VALUES (null,"'.$_POST["temat"].'","'.$_POST["imie"].'","'.$_POST["nazwisko"].'","'.$_POST["telefon"].'","'.$_POST["mail"].'","'.$_POST["wiadomosc"].'","'.$lokalizacja.'")';
+                    $baza->query($zap);
+                    $baza->close();
                 }
                 //$temat = $_POST['']
             ?>
